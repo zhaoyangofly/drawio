@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-29T03:13:05.053Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="lBNAdDSpzLzISeaM7BQR" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-29T03:26:27.073Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="oFP4F6fFyEXbKKev0oCb" version="21.1.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2954" dy="1251" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1088" dy="461" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -61,6 +61,9 @@
         <mxCell id="h0zI696RxbgCG7kidYG2-1" value="state_changed 初始化&lt;br&gt;state_changed = false" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="145" y="710" width="150" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="h0zI696RxbgCG7kidYG2-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="h0zI696RxbgCG7kidYG2-6" target="h0zI696RxbgCG7kidYG2-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="h0zI696RxbgCG7kidYG2-6" value="读取OS_PSYNC_TASK队列全部数据，最大30 Tick 阻塞时间&lt;br&gt;&lt;br&gt;OS_Wait_Message()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="132.5" y="820" width="175" height="110" as="geometry" />
         </mxCell>
@@ -91,16 +94,31 @@
           <mxGeometry x="730.5" y="455" width="363" height="159" as="geometry" />
         </mxCell>
         <mxCell id="h0zI696RxbgCG7kidYG2-26" value="return&amp;nbsp;E_OS_OK" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;rounded=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="862" y="670" width="100" height="60" as="geometry" />
+          <mxGeometry x="848" y="670" width="128" height="60" as="geometry" />
         </mxCell>
         <mxCell id="h0zI696RxbgCG7kidYG2-28" value="OS_Wait_Message" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;rounded=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="837" y="60" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="h0zI696RxbgCG7kidYG2-29" value="return&amp;nbsp;E_ERROR" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;rounded=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1170" y="505" width="100" height="60" as="geometry" />
+          <mxGeometry x="1170" y="505" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="h0zI696RxbgCG7kidYG2-32" value="Psync_Task" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;rounded=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="150" y="60" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h0zI696RxbgCG7kidYG2-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="h0zI696RxbgCG7kidYG2-34" target="h0zI696RxbgCG7kidYG2-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h0zI696RxbgCG7kidYG2-34" value="获取队列读取结果，获取成功 status 被赋值为 1，获取失败，status 被赋值为 0&lt;br&gt;&lt;br&gt;status = OS_Wait_Message()" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;fontStyle=0" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="96.25" y="990" width="247.5" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="h0zI696RxbgCG7kidYG2-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="h0zI696RxbgCG7kidYG2-37" target="h0zI696RxbgCG7kidYG2-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h0zI696RxbgCG7kidYG2-37" value="队列获取是否成功？&lt;br&gt;&lt;br&gt;status&amp;nbsp; == 1&amp;nbsp; ？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="100" y="1150" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="h0zI696RxbgCG7kidYG2-40" value="执行状态机&amp;nbsp;FSM_Process_Evt&lt;br&gt;&lt;br&gt;FSM_Process_Evt()" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="125" y="1300" width="190" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
