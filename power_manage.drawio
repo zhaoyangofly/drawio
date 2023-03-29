@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-29T03:39:30.052Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="nAyZlk90N_RTCGphyJ9B" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-29T04:05:40.725Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="lunXV5-SncommHVUNmXR" version="21.1.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="985" dy="417" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2206" dy="584" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -15,7 +15,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-5" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-6" target="WIyWlLk6GJQsqaUBKTNV-7" edge="1">
-          <mxGeometry y="10" relative="1" as="geometry">
+          <mxGeometry x="-0.1429" y="10" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -31,7 +31,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-9" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-10" target="WIyWlLk6GJQsqaUBKTNV-12" edge="1">
-          <mxGeometry y="10" relative="1" as="geometry">
+          <mxGeometry x="-0.0095" y="10" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -111,9 +111,16 @@
         <mxCell id="h0zI696RxbgCG7kidYG2-34" value="获取队列读取结果，&lt;br&gt;获取成功 status 被赋值为 1，&lt;br&gt;获取失败，status 被赋值为 0&lt;br&gt;&lt;br&gt;status = OS_Wait_Message()" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;fontStyle=0" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="78.13" y="990" width="283.75" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="h0zI696RxbgCG7kidYG2-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="h0zI696RxbgCG7kidYG2-37">
+        <mxCell id="h0zI696RxbgCG7kidYG2-76" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;labelBackgroundColor=none;strokeColor=default;strokeWidth=1;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=block;endFill=0;endSize=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="h0zI696RxbgCG7kidYG2-37" target="h0zI696RxbgCG7kidYG2-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h0zI696RxbgCG7kidYG2-79" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;labelBackgroundColor=none;strokeColor=default;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontColor=default;endArrow=block;endFill=0;endSize=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="h0zI696RxbgCG7kidYG2-37">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="220" y="1290" as="targetPoint" />
+            <mxPoint x="220" y="1390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint y="1195" />
+              <mxPoint y="1390" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="h0zI696RxbgCG7kidYG2-37" value="队列获取是否成功？&lt;br&gt;&lt;br&gt;status&amp;nbsp; == 1&amp;nbsp; ？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -121,6 +128,11 @@
         </mxCell>
         <mxCell id="h0zI696RxbgCG7kidYG2-40" value="执行状态机&amp;nbsp;FSM_Process_Evt&lt;br&gt;&lt;br&gt;FSM_Process_Evt()" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1654" y="160" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h0zI696RxbgCG7kidYG2-77" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;labelBackgroundColor=none;strokeColor=default;strokeWidth=1;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=block;endFill=0;endSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="h0zI696RxbgCG7kidYG2-44" target="h0zI696RxbgCG7kidYG2-54">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="h0zI696RxbgCG7kidYG2-44" value="进入 while 循环" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="160" y="1290" width="120" height="60" as="geometry" />
@@ -147,6 +159,21 @@
               <mxPoint x="1430" y="80" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="h0zI696RxbgCG7kidYG2-54" value="PS_Get_Current_State()" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="127.51" y="1420" width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h0zI696RxbgCG7kidYG2-55" value="执行状态机&amp;nbsp;FSM_Process_Evt&lt;br&gt;&lt;br&gt;FSM_Process_Evt()" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2070" y="160" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h0zI696RxbgCG7kidYG2-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="h0zI696RxbgCG7kidYG2-57" target="h0zI696RxbgCG7kidYG2-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h0zI696RxbgCG7kidYG2-57" value="PS_Get_Current_State()" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;rounded=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2072.5" y="50" width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h0zI696RxbgCG7kidYG2-80" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=default;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="210" y="1250" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
