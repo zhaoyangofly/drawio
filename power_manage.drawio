@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-29T08:10:30.181Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="1PZVqfpf_JfKiAvwsQrh" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-29T08:18:40.801Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="95JrFb2WAuTzy0ZQdmwO" version="21.1.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="3466" dy="1586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3343" dy="1534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -373,7 +373,7 @@
         <mxCell id="h0zI696RxbgCG7kidYG2-225" value="Set_MCU_DEBUG(uint8_t *str, uint16_t value)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;shadow=0;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="3233.25" y="35" width="301" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="h0zI696RxbgCG7kidYG2-226" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;labelBackgroundColor=none;strokeColor=default;strokeWidth=1;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=block;endFill=0;endSize=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="h0zI696RxbgCG7kidYG2-227">
+        <mxCell id="h0zI696RxbgCG7kidYG2-226" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;labelBackgroundColor=none;strokeColor=default;strokeWidth=1;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=block;endFill=0;endSize=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="h0zI696RxbgCG7kidYG2-227" target="h0zI696RxbgCG7kidYG2-238">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="3383.75" y="360" as="targetPoint" />
           </mxGeometry>
@@ -390,11 +390,17 @@
         <mxCell id="h0zI696RxbgCG7kidYG2-240" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;labelBackgroundColor=none;strokeColor=default;strokeWidth=1;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=block;endFill=0;endSize=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="h0zI696RxbgCG7kidYG2-238" target="h0zI696RxbgCG7kidYG2-239">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="h0zI696RxbgCG7kidYG2-238" value="str_len&amp;nbsp;字符长度 &amp;gt; 10 ?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;strokeColor=default;strokeWidth=1;fontFamily=Helvetica;fontSize=11;fontColor=default;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="3293.75" y="360" width="180" height="80" as="geometry" />
+        <mxCell id="h0zI696RxbgCG7kidYG2-238" value="给字符限长&lt;br&gt;&lt;br&gt;str_len&amp;nbsp;字符长度 &amp;gt; 10 ?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;strokeColor=default;strokeWidth=1;fontFamily=Helvetica;fontSize=11;fontColor=default;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="3265.6400000000003" y="330" width="236.25" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="h0zI696RxbgCG7kidYG2-245" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;labelBackgroundColor=none;strokeColor=default;strokeWidth=1;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=block;endFill=0;endSize=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="h0zI696RxbgCG7kidYG2-239" target="h0zI696RxbgCG7kidYG2-244">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="h0zI696RxbgCG7kidYG2-239" value="将 str 字符存入 info 数组中&lt;br&gt;&lt;br&gt;memcpy(info,str,str_len)" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeColor=default;strokeWidth=1;fontFamily=Helvetica;fontSize=11;fontColor=default;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="3286.75" y="490" width="194" height="60" as="geometry" />
+          <mxGeometry x="3286.75" y="480" width="194" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h0zI696RxbgCG7kidYG2-244" value="将16进制value，转换为字符串 num&lt;br&gt;&lt;br&gt;itoa(value,num,16)" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeColor=default;strokeWidth=1;fontFamily=Helvetica;fontSize=11;fontColor=default;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="3268.77" y="600" width="230" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
