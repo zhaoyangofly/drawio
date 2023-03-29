@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-29T07:48:20.050Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="_X9BruENyACQBt5Xc4c-" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-29T07:54:53.872Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="3vg4Yejg6RRoD55yF4m7" version="21.1.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2639" dy="1533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4239" dy="2124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -101,8 +101,8 @@
         <mxCell id="h0zI696RxbgCG7kidYG2-54" value="PS_Get_Current_State()" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-52.489999999999995" y="880" width="185" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="h0zI696RxbgCG7kidYG2-55" value="返回 ps_data.current_state 的值，初始为 0，之后 赋值为 state；（state的值，由PS_Set_Current_State(new_state)获取，state = new_state）&lt;br&gt;&lt;br&gt;&lt;br&gt;return&amp;nbsp;ps_data.current_state" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="2040" y="160" width="250" height="130" as="geometry" />
+        <mxCell id="h0zI696RxbgCG7kidYG2-55" value="返回 ps_data.current_state 的值，初始为 0，之后 赋值为 state；&lt;br&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;state的值，由PS_Set_Current_State(new_state)获取，state = new_state&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;br&gt;return&amp;nbsp;ps_data.current_state" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2010" y="160" width="310" height="130" as="geometry" />
         </mxCell>
         <mxCell id="h0zI696RxbgCG7kidYG2-156" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;labelBackgroundColor=none;strokeColor=default;strokeWidth=1;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=block;endFill=0;endSize=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="h0zI696RxbgCG7kidYG2-57" target="h0zI696RxbgCG7kidYG2-55">
           <mxGeometry relative="1" as="geometry" />
@@ -304,6 +304,9 @@
         <mxCell id="h0zI696RxbgCG7kidYG2-206" value="设置当前状态&lt;br&gt;&lt;br&gt;PS_Set_Current_State" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeColor=default;strokeWidth=1;fontFamily=Helvetica;fontSize=11;fontColor=default;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1658.5" y="630" width="181" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="h0zI696RxbgCG7kidYG2-221" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;labelBackgroundColor=none;strokeColor=default;strokeWidth=1;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=block;endFill=0;endSize=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="h0zI696RxbgCG7kidYG2-209" target="h0zI696RxbgCG7kidYG2-220">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="h0zI696RxbgCG7kidYG2-209" value="PS_Set_Current_State" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;shadow=0;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="2800" y="40" width="190" height="80" as="geometry" />
         </mxCell>
@@ -340,6 +343,9 @@
               <mxPoint x="3050" y="70" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="h0zI696RxbgCG7kidYG2-220" value="传入 state 的值，更新ps_data.current_state 的值&lt;br&gt;&lt;br&gt;&lt;br&gt;ps_data.current_state = state" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2795" y="180" width="200" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
