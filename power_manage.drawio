@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-29T08:21:24.839Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="thZus1EeDCe2p1LWsC8q" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-29T08:23:58.015Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="qvc54ocN98A3_uTKjTe3" version="21.1.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="3343" dy="1534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -390,7 +390,7 @@
         <mxCell id="h0zI696RxbgCG7kidYG2-240" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;labelBackgroundColor=none;strokeColor=default;strokeWidth=1;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=block;endFill=0;endSize=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="h0zI696RxbgCG7kidYG2-238" target="h0zI696RxbgCG7kidYG2-239">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="h0zI696RxbgCG7kidYG2-238" value="给字符限长&lt;br&gt;&lt;br&gt;str_len&amp;nbsp;字符长度 &amp;gt; 10 ?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;strokeColor=default;strokeWidth=1;fontFamily=Helvetica;fontSize=11;fontColor=default;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="h0zI696RxbgCG7kidYG2-238" value="给字符限长&lt;br&gt;&lt;br&gt;str 字符长度 &amp;gt; 10 ?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;strokeColor=default;strokeWidth=1;fontFamily=Helvetica;fontSize=11;fontColor=default;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="3265.6400000000003" y="330" width="236.25" height="100" as="geometry" />
         </mxCell>
         <mxCell id="h0zI696RxbgCG7kidYG2-245" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;labelBackgroundColor=none;strokeColor=default;strokeWidth=1;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=block;endFill=0;endSize=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="h0zI696RxbgCG7kidYG2-239" target="h0zI696RxbgCG7kidYG2-244">
@@ -405,8 +405,26 @@
         <mxCell id="h0zI696RxbgCG7kidYG2-244" value="将16进制value，转换为字符串 num&lt;br&gt;&lt;br&gt;itoa(value,num,16)" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeColor=default;strokeWidth=1;fontFamily=Helvetica;fontSize=11;fontColor=default;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="3268.77" y="600" width="230" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="h0zI696RxbgCG7kidYG2-251" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;labelBackgroundColor=none;strokeColor=default;strokeWidth=1;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=block;endFill=0;endSize=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="h0zI696RxbgCG7kidYG2-246" target="h0zI696RxbgCG7kidYG2-249">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="h0zI696RxbgCG7kidYG2-246" value="计算 num 字符串长度&lt;br&gt;&lt;br&gt;str_len = Calculate_Info_Length((uint8_t *)num)" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeColor=default;strokeWidth=1;fontFamily=Helvetica;fontSize=11;fontColor=default;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="3235.27" y="730" width="297" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="h0zI696RxbgCG7kidYG2-248" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;labelBackgroundColor=none;strokeColor=default;strokeWidth=1;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=block;endFill=0;endSize=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="h0zI696RxbgCG7kidYG2-249" target="h0zI696RxbgCG7kidYG2-250">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h0zI696RxbgCG7kidYG2-249" value="num&amp;nbsp;&amp;nbsp;字符长度 &amp;gt; 5 ?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;strokeColor=default;strokeWidth=1;fontFamily=Helvetica;fontSize=11;fontColor=default;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="3265.6200000000003" y="870" width="236.25" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="h0zI696RxbgCG7kidYG2-250" value="将 str 字符存入 info 数组中&lt;br&gt;&lt;br&gt;memcpy(info,str,str_len)" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeColor=default;strokeWidth=1;fontFamily=Helvetica;fontSize=11;fontColor=default;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="3286.73" y="1020" width="194" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h0zI696RxbgCG7kidYG2-252" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="3380" y="440" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h0zI696RxbgCG7kidYG2-253" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="3380" y="980" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
